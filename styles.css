@@ -44,5 +44,15 @@ footer {
     padding: 10px 0;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%;    
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
