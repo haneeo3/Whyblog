@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Blog</title>
+    <title>Your Interactive Blog</title>
 </head>
 
 <body>
@@ -23,9 +23,17 @@
     </header>
 
     <div class="container">
-        <section class="main-content">
-            <h2>Welcome to Your Blog!</h2>
-            <p>This is your space to share your thoughts and ideas with the world.</p>
+        <section class="main-content" id="blog-posts">
+            <!-- Blog posts will be dynamically added here using JavaScript -->
+        </section>
+
+        <section class="sidebar">
+            <h2>Follow Us</h2>
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
         </section>
     </div>
 
@@ -34,6 +42,8 @@
             <p>&copy; 2023 Your Blog. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
